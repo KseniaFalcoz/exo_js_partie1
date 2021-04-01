@@ -1,9 +1,9 @@
 function displayInput(){
-    var nom = document.form1.nom.value;
-    var prenom = document.form1.prenom.value;
-    var ville = document.form1.ville.value;
-    if(nom && prenom && ville){
-      alert('Nom : ' + nom + '\n' + 'Prenom : ' + prenom + '\n' + 'Ville : ' + ville);
+    var firstName = document.form1.firstName.value;
+    var lastName = document.form1.lastName.value;
+    var city = document.form1.city.value;
+    if(firstName && lastName && city){
+      alert('Nom : ' + firstName + '\n' + 'Prénom : ' + lastName + '\n' + 'Ville : ' + city);
     } else {
       alert('Veuillez remplir les champs');
     }

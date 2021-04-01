@@ -1,6 +1,6 @@
-var prenom = prompt('Entrez votre prénom:');
-if(isNaN(prenom)){
-    alert('Bonjour ' + prenom);
+var firstName = prompt('Entrez votre prénom:');
+if(isNaN(firstName)){
+    alert('Bonjour ' + firstName);
 } else {
     alert('Verifiez votre saisie');
 }
